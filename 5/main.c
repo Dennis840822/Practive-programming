@@ -5,7 +5,8 @@
 
 int main(int argc, char *argv[]) 
 {
-	int i,j,b,sum;
+	int i,b,sum;
+	int j=5;
 	scanf("%d",&sum);
 	int an[sum][j];
 	for(i=0;i<=sum-1;i++){
