@@ -3,7 +3,8 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 #define BEGIN {
-#define END } 
+#define END }
+#define A "123"
 int main(int argc, char *argv[]) 
 BEGIN
 	int i,j;
@@ -13,5 +14,6 @@ BEGIN
 			printf("*");
 		printf("\n");
 	END
+	printf(A);
 	return 0;
 END
