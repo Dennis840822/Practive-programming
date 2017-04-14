@@ -6,7 +6,6 @@
 int main(int argc, char *argv[]) 
 {
 	int i,a[5]={32,16,35,65,52};
-	printf("a=%d\n",a);
 	printf("a=%p\n",a);
 	printf("&a=%p\n",&a);
 	
