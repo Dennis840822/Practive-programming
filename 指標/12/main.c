@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
+//int* max(int *,int *);
 int *max(int *,int *);
 int main(int argc, char *argv[]) 
 {
@@ -12,6 +13,12 @@ int main(int argc, char *argv[])
 	system("PAUSE");
 	return 0;
 }
+/*int* max(int *p1,int *p2){
+	if(*p1>*p2)
+		return p1;
+	else
+		return p2;
+}*/ 
 int *max(int *p1,int *p2){
 	if(*p1>*p2)
 		return p1;
