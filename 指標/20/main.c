@@ -20,8 +20,9 @@ int main(int argc, char *argv[])
 int *maximum(int *arr){
 	int i,*max;
 	max = arr;
-	for(i=1;i<SIZE;i++)
+	for(i=1;i<SIZE;i++){
 		if(*max < *(arr+i))
 			max = arr +i;
+	}
 	return max;
 }
