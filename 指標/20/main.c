@@ -21,8 +21,12 @@ int *maximum(int *arr){
 	int i,*max;
 	max = arr;
 	for(i=1;i<SIZE;i++){
-		if(*max < *(arr+i))
+		if(*max < *(arr+i)){
+			printf("\nmax=%d , arr=%d\n",*max,*arr);
 			max = arr +i;
+			printf("\nmax=%d , arr=%d\n",*max,*arr);
+			
+		}
 	}
 	return max;
 }
