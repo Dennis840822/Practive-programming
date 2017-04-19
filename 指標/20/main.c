@@ -24,7 +24,6 @@ int *maximum(int *arr){
 		if(*max < *(arr+i)){
 			max = arr +i;
 			printf("\nmax=%d , arr=%d\n",*max,*arr);
-			
 		}
 	}
 	return max;
