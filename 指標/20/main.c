@@ -22,7 +22,6 @@ int *maximum(int *arr){
 	max = arr;
 	for(i=1;i<SIZE;i++){
 		if(*max < *(arr+i)){
-			printf("\nmax=%d , arr=%d\n",*max,*arr);
 			max = arr +i;
 			printf("\nmax=%d , arr=%d\n",*max,*arr);
 			
