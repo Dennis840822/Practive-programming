@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 	printf("array a=");
 	for(i=0;i<SIZE;i++)
 		printf("%d",a[i]);
-	ptr = maximum(a);
+	ptr = maximum(a);//a=>指標常數，代表了ａ陣列的第一元素記憶體位址 
 	printf("\nmaximum=%d\n",*ptr);
 	
 	system("PAUSE");
