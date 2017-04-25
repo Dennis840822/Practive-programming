@@ -5,6 +5,12 @@
 
 int main(int argc, char *argv[]) 
 {
+	int n=20,*p,**pp;
+	p = &n;
+	pp = &p;
+	printf("n=%d, &n=%p, *p=%d, p=%p, &p=%p\n",n,&n,*p,p,&p);
+	printf("**pp=%d, **p=%p, pp=%p, &pp=%p\n",**pp,*pp,pp,&pp);
 	
+	system("PAUSE");
 	return 0;
 }
