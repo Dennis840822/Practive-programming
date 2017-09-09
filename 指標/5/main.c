@@ -14,6 +14,7 @@ int main(int argc, char *argv[])
 	a=17;
 	ptr1=ptr2;
 	*ptr1=9;
+	ptr1=&a;
 	a=64;
 	*ptr2=*ptr1+5;
 	ptr2=&a;
