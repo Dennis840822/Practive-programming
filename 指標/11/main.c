@@ -3,6 +3,7 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 int *max(int *,int *);
+//函數圓形亦可寫成=>int* max(int*,int*); 
 int main(int argc, char *argv[]) 
 {
 	int a=12,b=17,*ptr;
