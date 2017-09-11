@@ -1,0 +1,15 @@
+﻿practive
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   "\346\214\207\346\250\231/14/Makefile.win"
+#	new file:   "\346\214\207\346\250\231/14/main.c"
+#	new file:   "\346\214\207\346\250\231/14/main.o"
+#	new file:   "\346\214\207\346\250\231/14/\345\260\210\346\241\2101.dev"
+#	new file:   "\346\214\207\346\250\231/14/\345\260\210\346\241\2101.exe"
+#	new file:   "\346\214\207\346\250\231/14/\345\260\210\346\241\2101.layout"
+#
+
