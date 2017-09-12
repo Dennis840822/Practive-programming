@@ -21,6 +21,6 @@ int *maximum(int *arr){
 	max = arr;
 	for(i=0;i<SIZE;i++)
 		if(*max < *(arr+i))
-			max = arr + i;
+			max = arr + i;//取得最大數值的位置並傳回去給ptr 
 	return max;
 }
