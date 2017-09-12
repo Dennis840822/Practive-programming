@@ -21,6 +21,7 @@ int *maximum(int *arr){
 	max = arr;
 	for(i=0;i<SIZE;i++)
 		if(*max < *(arr+i))
-			max = arr + i;//取得最大數值的位置並傳回去給ptr 
+			max = arr + i;//取得最大數值的位置並傳回去給ptr
+			//無法傳回整數是因為，傳回值得變數型態為整數指標，所以只能傳回位址 
 	return max;
 }
