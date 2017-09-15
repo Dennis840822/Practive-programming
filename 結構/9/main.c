@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 		int math;
 	}student[MAX] = {{"Marry",87},{"Flora",93},{"Jenny",74}};
 	
-	m = student->math;//(student+0).math
+	m = student->math;//(student+0)->math = student[0].math
 	//m = student[MAX].math;
 	for(i=0;i<MAX;i++){
 		if((student+i)->math > m){
